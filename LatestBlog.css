@@ -1,0 +1,90 @@
+.BLOG {
+    margin-top: 100px;
+    justify-content:center;
+    text-align: center;
+}
+.Jan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin:0px;
+}
+.jan {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: #95E1D3;
+    margin-top: -100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+
+}
+.JAN {
+    margin-top: 50px;
+}
+.NaM {
+    margin-top: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2D3033;
+}
+.LOReM{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2D3033;
+    margin-top: 30px;
+    text-align: left;
+    margin: 20px;
+}
+
+.ICONKA {
+    display: flex;
+    flex-direction: row;
+    
+}
+.iconki {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    align-items: center;
+    margin: 20px;
+
+}
+.chislo {
+    margin: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.LatestBlog {
+    background-image: url(unsplash_x3REnO9z7ioo.png);
+    margin-top: 100px;
+    height: 230px;
+    align-items: center;
+    text-align: center;
+}
+.LB {
+    /* margin-top: 50px; */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #F38281;
+}
+.location {
+    margin: 40px;
+    margin-top: 40px;
+}
+.locatioN {
+    margin-top: 30px; 
+    border: 2px solid #F38281;
+}

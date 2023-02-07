@@ -1,0 +1,114 @@
+.Team {
+    justify-content:center;
+    text-align: center;
+}
+.italics {
+    size: 30px;
+    margin: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+.bold {
+    size: 36px;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+hr {
+    width: 170px;
+    border: 0.5px solid #F38281;
+    margin-top: 30px;
+}
+.text {
+    max-height: 118px;
+    size: 18px;
+    padding: 50px;
+    margin: 0px, 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+.One {
+    height: 330px;
+    width: 370px; 
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(unsplash_d1UPkiFd04A.png);
+
+}
+.One:hover { 
+    transform: translate(10px, 10px); 
+    opacity: 1s;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%); 
+    transition: .2s linear; 
+
+} 
+.Two {
+    width: 370px;
+    height: 330px;
+    background-image: url(unsplash_iFgRcqHznqg.png);
+    margin: 30px;
+}
+.Two:hover { 
+    transform: translate(10px, 10px); 
+    opacity: 1s;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%); 
+    transition: .2s linear; 
+}
+.Three {
+    width: 370px;
+    height: 330px;
+    background-image: url(unsplash_WyDr1KFS23Y.png);
+    margin: 30px;
+}
+.Three:hover { 
+    transform: translate(10px, 10px); 
+    opacity: 1s;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%); 
+    transition: .2s linear; 
+    
+}
+.information {
+    margin-top: 50px;
+    margin-left: 5px;
+    background-image: url(photo1675694324.jpeg);
+}
+
+/* img {
+    margin-top: 280px;
+} */
+.people {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.Name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; 
+    width: 370px; 
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profetion {
+    margin-top: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #2D3033;
+}

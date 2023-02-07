@@ -1,0 +1,52 @@
+.desing {
+    background-image: url(unsplash_lpjb_UMOyx8.png);
+    width: 100%;
+    justify-content:center;
+    text-align: center;
+    margin-top: 100px;
+    height: 690px;
+    
+
+}
+.italics {
+    size: 30px;
+    margin-top: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+.bold {
+    size: 36px;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+hr {
+    width: 170px;
+    border: 0.5px solid #F38281;
+    margin-top: 30px;
+}
+.tablet {
+    display: flex;
+    justify-content: center;
+}
+.screen {
+    width: 641px;
+    height: 485px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 0;
+    margin-right: 640px;
+    
+}
+.TelefonFrame {
+    margin-top: 220px;
+    margin-left: 550px;
+    position: absolute;
+    z-index: 1;
+}
+.TelefonScreen {
+    margin-top: 224px;
+    margin-left: 550px;
+    position: absolute;
+    z-index: 2;
+}
